@@ -6,4 +6,8 @@ for x in fruits:
   print(x)
   if x == "banana":
     break
-
+fruits = ["apple", "melon", "cherry"]
+for x in fruits:
+  if x == "melon":
+    continue
+  print(x)    
